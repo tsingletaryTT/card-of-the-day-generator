@@ -1,4 +1,10 @@
+# --- opencode/ (C build) ---
 card-of-the-day
 *.o
 *.obj
 /tmp/
+
+# --- qwencode/ (Python) ---
+__pycache__/
+*.pyc
+*.pyo

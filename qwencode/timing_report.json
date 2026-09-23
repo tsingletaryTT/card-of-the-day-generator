@@ -1,0 +1,58 @@
+{
+  "started_utc": "2026-09-23T21:49:26.681355+00:00",
+  "events": [
+    {
+      "event": "app_process_start",
+      "t_offset_s": 0.0,
+      "wall_clock_utc": "2026-09-23T21:49:26.681377+00:00"
+    },
+    {
+      "event": "gtk_activate",
+      "t_offset_s": 0.01,
+      "wall_clock_utc": "2026-09-23T21:49:26.691595+00:00"
+    },
+    {
+      "event": "window_presented",
+      "t_offset_s": 0.043,
+      "wall_clock_utc": "2026-09-23T21:49:26.724708+00:00"
+    },
+    {
+      "event": "llm_request_start",
+      "t_offset_s": 0.044,
+      "wall_clock_utc": "2026-09-23T21:49:26.724937+00:00"
+    },
+    {
+      "event": "llm_response_received",
+      "t_offset_s": 75.281,
+      "wall_clock_utc": "2026-09-23T21:50:41.961908+00:00"
+    },
+    {
+      "event": "llm_request_start",
+      "t_offset_s": 75.281,
+      "wall_clock_utc": "2026-09-23T21:50:41.962117+00:00"
+    },
+    {
+      "event": "llm_response_received",
+      "t_offset_s": 198.252,
+      "wall_clock_utc": "2026-09-23T21:52:44.933462+00:00"
+    },
+    {
+      "event": "card_ready_shown",
+      "t_offset_s": 198.254,
+      "wall_clock_utc": "2026-09-23T21:52:44.935571+00:00"
+    }
+  ],
+  "token_usage": {
+    "prompt_tokens": 459,
+    "completion_tokens": 6949,
+    "total_tokens": 7408
+  },
+  "model": "Qwen/Qwen3.8-27B",
+  "api_url": "http://127.0.0.1:8000/v1/chat/completions",
+  "card": {
+    "name": "Equinox Signal",
+    "rarity": "uncommon",
+    "date_label": "September 23, 2026",
+    "source": "Qwen3.8-27B"
+  }
+}

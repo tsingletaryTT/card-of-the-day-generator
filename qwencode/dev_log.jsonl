@@ -1,0 +1,6 @@
+{"t_epoch": 1790199344, "t_utc": "2026-09-23T21:35:44Z", "phase": "dev_session", "event": "dev_log_initialized", "note": "Development-process instrumentation started. Records the BUILD of the app (not app runtime)."}
+{"t_utc": "2026-09-23T21:20:00Z", "phase": "explore", "event": "env_discovery", "note": "Located vLLM server (Qwen/Qwen3.8-27B) on 127.0.0.1:8000; confirmed GTK4 4.14.5 + Rsvg 2.58 + pycairo on system python3.12; Wayland display :0."}
+{"t_utc": "2026-09-23T21:24:00Z", "phase": "build", "event": "app_v1_written", "note": "Wrote card_of_the_day.py (GTK4 + Rsvg + cairo). Chose Python3/GTK4 for speed + system bindings already present."}
+{"t_utc": "2026-09-23T21:31:00Z", "phase": "build", "event": "app_v2_instrumented", "note": "Rewrote with TimingLog (TTFP, LLM latency, token usage -> timing_report.json), fixed _today bug + dead code line."}
+{"t_utc": "2026-09-23T21:35:44Z", "phase": "build", "event": "syntax_verified", "note": "py_compile + AST parse pass. Dev-process logging requested by user; dev_log.jsonl started."}
+{"t_utc": "2026-09-23T21:44:13Z", "phase": "baseline", "event": "T0_anchor_set_by_user", "note": "User designated 14:24 local as official dev-start (T0). All dev-elapsed times measured from here.", "t0_local": "14:24:00"}
