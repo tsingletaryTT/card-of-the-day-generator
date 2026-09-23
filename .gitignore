@@ -1,0 +1,4 @@
+card-of-the-day
+*.o
+*.obj
+/tmp/
