@@ -4,6 +4,10 @@ A small **GTK4 (C)** desktop app that mints a collectible, Pokemon /
 Magic‑the‑Gathering‑style **"trading card" for today's calendar date**, using a
 local LLM as the "Oracle of Days".
 
+![Card of the Day — a trading card minted for the day](screenshot.png)
+
+_The card for the day, as rendered by the app._
+
 When it opens it:
 
 1. Detects the current calendar day (or honours a `COTD_DATE=YYYY-MM-DD`
